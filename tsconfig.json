@@ -12,6 +12,7 @@
       "@layouts/*": [
         "src/layouts/*"
       ]
-    }
+    },
+    "useUnknownInCatchVariables": false
   }
 }
