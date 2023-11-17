@@ -1,0 +1,54 @@
+{
+    "data": "0x0dbe671f",
+    "gas": "0x52C2",
+    "chains": [
+        {
+            "name": "Arbitrum One",
+            "id": "0xa4b1",
+            "rpc": "https://arb1.arbitrum.io/rpc",
+            "explorer": "https://arbiscan.io",
+            "contract": "0x49AA4de7E6d99A2F7EFf1d1eaDE14404F5ae2E97",
+            "color": "#4a9eed"
+        },
+        {
+            "name": "Base",
+            "id": "0x2105",
+            "rpc": "https://mainnet.base.org",
+            "explorer": "https://basescan.org",
+            "contract": "0xAe6861A6E376b0544C44E41A038b797afBA06eE6",
+            "color": "#3d50f1"
+        },
+        {
+            "name": "Linea",
+            "id": "0xe708",
+            "rpc": "https://rpc.linea.build",
+            "explorer": "https://lineascan.build",
+            "contract": "0xCDFC607407AC05C2B0241e433f8Ff749589385B7",
+            "color": "#000000"
+        },
+        {
+            "name": "Optimism",
+            "id": "0xa",
+            "rpc": "https://mainnet.optimism.io",
+            "explorer": "https://optimistic.etherscan.io",
+            "contract": "0x320D382496641cCb20e31b09572EeC33e90f574C",
+            "color": "#f4292e"
+        },
+        {
+            "name": "Polygon zkEVM",
+            "id": "0x44d",
+            "rpc": "https://zkevm-rpc.com",
+            "explorer": "https://zkevm.polygonscan.com",
+            "contract": "0x0edB7a72593B57bC94766373aFCCc2AB039EfF25",
+            "color": "#8348e2"
+        },
+        {
+            "name": "Scroll",
+            "id": "0x82750",
+            "rpc": "https://rpc.scroll.io",
+            "explorer": "https://scrollscan.com",
+            "contract": "0x0edB7a72593B57bC94766373aFCCc2AB039EfF25",
+            "color": "#e6b166"
+        }
+    ]
+}
