@@ -6,7 +6,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "svelte.svelte-vscode",
+                "astro-build.astro-vscode",
                 "bradlc.vscode-tailwindcss",
                 "heybourn.headwind"
             ]
