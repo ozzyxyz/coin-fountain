@@ -1,0 +1,15 @@
+---
+import ChainsButton from "@components/ChainsButton.astro";
+import CoinFountainLogo from "@components/CoinFountainLogo.astro";
+import WalletsButton from "@components/WalletsButton.astro";
+import PopupCover from "./PopupCover.astro";
+---
+
+<header class="sticky top-0 z-30 h-16 flex items-center justify-between px-4">
+    <CoinFountainLogo />
+    <div class="flex gap-6 relative">
+        <PopupCover />
+        <ChainsButton />
+        <WalletsButton />
+    </div>
+</header>
