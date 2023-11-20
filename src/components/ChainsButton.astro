@@ -1,0 +1,40 @@
+---
+import coinFountain from "coin-fountain.json";
+---
+
+<button
+    id="button-chains"
+    class="shadow-md rounded-full hover:opacity-80 duration-75"
+>
+    <img
+        src="/arbitrum-one.svg"
+        alt="Arbitrum One icon"
+        width="40"
+        height="40"
+    />
+</button>
+
+<div hidden id="popup-chains" class="absolute min-w-max top-12 right-0 z-40">
+    <ul
+        class="p-0.5 flex flex-col gap-0.5 bg-white border shadow-md rounded-xl"
+    >
+        {
+            coinFountain.chains.map((chain) => (
+                <li>
+                    <button
+                        id={`${chain.name.replaceAll(" ", "-").toLowerCase()}`}
+                        class="flex items-center hover:bg-black/5 w-full rounded-xl px-3 gap-1.5 h-10 duration-75"
+                    >
+                        <img
+                            src={`/${chain.name
+                                .replaceAll(" ", "-")
+                                .toLowerCase()}.svg`}
+                            class="aspect-square w-7 h-7"
+                        />
+                        {chain.name}
+                    </button>
+                </li>
+            ))
+        }
+    </ul>
+</div>
