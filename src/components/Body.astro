@@ -1,0 +1,16 @@
+---
+import coinFountain from "coin-fountain.json";
+
+const arbitrumOne = coinFountain.chains[0];
+---
+
+<body
+    style={{
+        background: `${arbitrumOne?.color}30`,
+        fontFamily: "'Inter', sans-serif;",
+        color: "#222",
+        fontWeight: 500,
+    }}
+>
+    <slot />
+</body>
