@@ -1,0 +1,39 @@
+---
+import coinFountain from "coin-fountain.json";
+
+const arbitrumOne = coinFountain.chains[0];
+---
+
+<button
+    id="button-wallets"
+    style={{ background: `${arbitrumOne?.color}` }}
+    class="px-5 rounded-full h-10 text-white shadow-md hover:opacity-80 duration-75"
+>
+    Connect
+</button>
+
+<div hidden id="popup-wallets" class="absolute min-w-max top-12 right-0 z-40">
+    <ul
+        id="ul-wallets"
+        class="p-0.5 flex flex-col gap-0.5 bg-white border shadow-md rounded-xl"
+    >
+        <li>
+            <button
+                class="hover:bg-black/5 px-3 w-full flex items-center h-10 gap-1.5 rounded-xl duration-75"
+                id="no-wallet-is-found"
+            >
+                No Wallet Is Found
+            </button>
+        </li>
+    </ul>
+</div>
+
+<template id="template-wallet">
+    <li>
+        <button
+            class="hover:bg-black/5 px-3 w-full flex items-center h-10 gap-1.5 rounded-xl duration-75"
+        >
+            <img class="aspect-square w-6 h-6" />
+        </button>
+    </li>
+</template>
