@@ -58,6 +58,8 @@ Smart contracts for each chain **Coin Fountain** supports are verified in the re
 
 <img src="/public/scroll.svg" width="24"/> Scroll: [https://scrollscan.com/address/0x0edB7a72593B57bC94766373aFCCc2AB039EfF25](https://scrollscan.com/address/0x0edB7a72593B57bC94766373aFCCc2AB039EfF25)
 
+<img src="/public/zksync-era.svg" width="24"/> zkSync Era: [https://explorer.zksync.io/0xEfEb7506CC5EcCe26A85Ad5B4257e7e6cD496412](https://explorer.zksync.io/0xEfEb7506CC5EcCe26A85Ad5B4257e7e6cD496412)
+
 ## 👀 Want to learn more?
 
 **Coin Fountain** is developed using [Astro](https://astro.build), check [its documentation](https://docs.astro.build) for more info.
