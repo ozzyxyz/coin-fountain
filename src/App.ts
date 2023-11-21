@@ -38,7 +38,7 @@ class App {
         if (chain === undefined) {
             this.chainId = null
             App.elements.buttonThrow.disabled = true
-            confirm('Switch chain before using!')
+            alert('Switch chains before using!')
         } else {
             this.chainId = chain.id
             if (this.address) App.elements.buttonThrow.disabled = false
@@ -159,17 +159,7 @@ class App {
         })
 
         App.elements.buttonThrow.addEventListener('click', async () => {
-            const hash = await this.throwCoin()
-            const chain = coinFountain.chains.find(chain => chain.id === this.chainId)
-            if (!chain) return
-
-            const url = `${chain.explorer}/tx/${hash}`
-
-            const ok = confirm(`Do you want to visit ${url}?`)
-
-            if (ok) {
-                window.open(`${chain.explorer}/tx/${hash}`, '_blank')
-            }
+            await this.throwCoin()
         })
 
 
