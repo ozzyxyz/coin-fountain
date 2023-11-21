@@ -49,6 +49,14 @@
             "explorer": "https://scrollscan.com",
             "contract": "0x0edB7a72593B57bC94766373aFCCc2AB039EfF25",
             "color": "#e6b166"
+        },
+        {
+            "name": "zkSync Era",
+            "id": "0x144",
+            "rpc": "https://zksync.drpc.org",
+            "explorer": "https://explorer.zksync.io",
+            "contract": "0xEfEb7506CC5EcCe26A85Ad5B4257e7e6cD496412",
+            "color": "#8c8dfc"
         }
     ]
 }

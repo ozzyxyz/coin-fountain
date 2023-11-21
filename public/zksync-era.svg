@@ -1,0 +1,13 @@
+<svg viewBox="0 0 128 128" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+  </defs>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(140, 141, 252); stroke-width: 0px;" cx="64" cy="64" rx="64" ry="64" transform="matrix(1, 0, 0, 1, -5.684341886080802e-14, 0)"/>
+  <g transform="matrix(0.3914889991283417, 0, 0, 0.3914889991283417, -13.710611751991877, -13.872292932042242)">
+    <path class="st1" d="M316,199l-66.7-66.4v48.6l-66.2,48.7l66.2,0v35.5L316,199z"/>
+    <path class="st1" d="M81,199l66.7,66.4v-48.3l66.2-49.1l-66.2,0v-35.5L81,199z"/>
+  </g>
+</svg>
