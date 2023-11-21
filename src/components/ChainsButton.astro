@@ -5,6 +5,7 @@ import coinFountain from "coin-fountain.json";
 <button
     id="button-chains"
     class="shadow-md rounded-full hover:opacity-80 duration-75"
+    type="button"
 >
     <img
         src="/arbitrum-one.svg"
@@ -24,6 +25,7 @@ import coinFountain from "coin-fountain.json";
                     <button
                         id={`${chain.name.replaceAll(" ", "-").toLowerCase()}`}
                         class="flex items-center hover:bg-black/5 w-full rounded-xl px-3 gap-1.5 h-10 duration-75"
+                        type="button"
                     >
                         <img
                             src={`/${chain.name
