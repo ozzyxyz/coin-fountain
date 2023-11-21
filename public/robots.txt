@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://coinfountain.app/sitemap.xml
