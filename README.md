@@ -1,33 +1,35 @@
-# Astro Starter Kit: Minimal
+# ⛲ Coin Fountain | [coinfountain.app](https://coinfountain.app)
 
-```sh
-npm create astro@latest -- --template minimal
-```
+> ⛲  **Coin Fountain?** It is a blazingly-fast multi-chain dapp that has the lowest possible gas fees.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+> 📜 And all the smart contracts are verified!
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🙅‍♀️ Lastly, there is no fee to be charged.
 
-## 🚀 Project Structure
+## 🛠️ Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of **Coin Fountain** project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
 ├── src/
+│   ├── components/
 │   └── pages/
 │       └── index.astro
-└── package.json
+├── contract.sol
+└── coin-fountain.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+**Coin Fountain** has a home page, and it is defined inside `src/pages/index.astro` file.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+All the components are defined inside `src/components/` directory.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Static assets, like icons, are placed in the `public/` directory.
+
+The smart contract is defined inside `contract.sol` file.
+
+The data for **Coin Fountain** is defined inside `coin-fountain.json` file.
 
 ## 🧞 Commands
 
@@ -39,9 +41,25 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 📜 Smart Contracts
+
+Smart contracts for each chain **Coin Fountain** supports are verified in the relavent explorers.
+
+<img src="/public/arbitrum-one.svg" width="24"/> Arbitrum One: [https://arbiscan.io/address/0x49AA4de7E6d99A2F7EFf1d1eaDE14404F5ae2E97](https://arbiscan.io/address/0x49AA4de7E6d99A2F7EFf1d1eaDE14404F5ae2E97)
+
+<img src="/public/base.svg" width="24"/> Base: [https://basescan.org/address/0xAe6861A6E376b0544C44E41A038b797afBA06eE6](https://basescan.org/address/0xAe6861A6E376b0544C44E41A038b797afBA06eE6)
+
+<img src="/public/linea.svg" width="24"/> Linea: [https://lineascan.build/address/0xCDFC607407AC05C2B0241e433f8Ff749589385B7](https://lineascan.build/address/0xCDFC607407AC05C2B0241e433f8Ff749589385B7)
+
+<img src="/public/optimism.svg" width="24"/> Optimism: [https://optimistic.etherscan.io/address/0x320D382496641cCb20e31b09572EeC33e90f574C](https://optimistic.etherscan.io/address/0x320D382496641cCb20e31b09572EeC33e90f574C)
+
+<img src="/public/polygon-zkevm.svg" width="24"/> Polygon zkEVM: [https://zkevm.polygonscan.com/address/0x0edB7a72593B57bC94766373aFCCc2AB039EfF25](https://zkevm.polygonscan.com/address/0x0edB7a72593B57bC94766373aFCCc2AB039EfF25)
+
+<img src="/public/scroll.svg" width="24"/> Scroll: [https://scrollscan.com/address/0x0edB7a72593B57bC94766373aFCCc2AB039EfF25](https://scrollscan.com/address/0x0edB7a72593B57bC94766373aFCCc2AB039EfF25)
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**Coin Fountain** is developed using [Astro](https://astro.build), check [its documentation](https://docs.astro.build) for more info.
+
+
