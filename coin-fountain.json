@@ -3,6 +3,14 @@
     "gas": "0x52C2",
     "chains": [
         {
+            "name": "Ethereum",
+            "id": "0x1",
+            "rpc": "https://mainnet.infura.io/v3/",
+            "explorer": "https://etherscan.io   ",
+            "contract": "0xfb5F2119115042CB84800EDd7B2aEa6963c5B99F",
+            "color": "#8c8dfc"
+        },
+        {
             "name": "Arbitrum One",
             "id": "0xa4b1",
             "rpc": "https://arb1.arbitrum.io/rpc",
